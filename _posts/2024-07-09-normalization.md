@@ -123,8 +123,8 @@ DB 정규화
 ###### 2)
 ![스크린샷 2024-07-15 210220](https://github.com/user-attachments/assets/aa8e8757-94cd-46eb-bc5e-ca4a4acc8cda)
 
-정규화한 테이블의 칼럼에는 필수로 설정해줘야 하는 게 있다.
-첫 번째는 테이블이름_id에 auto increment, primary key, not null (ai, pk, nn), 두 번째는 테이블이름_name에 not null, unique (nn, UQ)
+정규화한 테이블의 칼럼에는 필수로 설정해줘야 하는 게 있습니다.
+첫 번째는 테이블이름_id에 auto increment, primary key, not null (ai, pk, nn), 두 번째는 테이블이름_name에 not null, unique (nn, UQ)입니다.
 
 
 ###### 3)
