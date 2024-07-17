@@ -214,13 +214,13 @@ join하고 나서 수업시간에는 update하는 방법으로 기존의 테이�
 ```sql
 insert into dvd_tb  // 새 테이블을 만들어서,
 select
-	0,              // 내가 넣고 싶은 값들만 뽑아서 새 테이블에 넣는다.
-	등록번호,
+    0,              // 내가 넣고 싶은 값들만 뽑아서 새 테이블에 넣는다.
+    등록번호,
     제목,
     producer_id,
-	publisher_id,
+    publisher_id,
     발행년,
-    데이터기준일자  
+    데이터기준일자
 from
 	sample_dvd_tb sdt
     left outer join producer_tb pdt
