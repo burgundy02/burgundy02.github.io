@@ -117,6 +117,21 @@ unmount: 마운트의 역순(조립의 역순, 휠다음에 타이어 분리함)
 => 리턴에 컴포넌트(함수를 테그처럼 사용함)가 있으면 컴포넌트(함수)가 호출돼서 실행된다.
 ```
 
+---
+
+비구조할당의 디폴트 값 : 
+
+```sql
+const {username="test", password} = user;
+
+console.log(username)
+```
+
+이렇게 user를 비구조할당했을 때 user안에 username이 없고, username이라는 키값 자체가 없으면 콘솔에 디폴트값 test가 나온다.
+
+["test", ...a ] = user
+
+여기서 ...a는 lest이다. user안에 있는 test를 들고오고 ...a를 씀으로써 user의 나머지 값들을 a에 넣는다.
 
 
 
